@@ -11,6 +11,10 @@ st.markdown('''<style>
 h1{font-size:2rem!important} h2{font-size:1.3rem!important}
 [data-testid="stMetric"]{background:#f5f6f8;padding:16px;border-left:3px solid #263e62;border-radius:4px}
 [data-testid="stMetricValue"]{font-size:1.8rem}
+[data-testid="stMetric"],
+[data-testid="stMetric"] * {
+    color: #172334 !important;
+}
 </style>''', unsafe_allow_html=True)
 
 @st.cache_data
